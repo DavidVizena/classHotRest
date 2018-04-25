@@ -1,0 +1,19 @@
+.tom {
+    height: 500px;
+    background-image: url("beverages-brunch-cocktail-5317.jpg");
+    z-index: -9999;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1200px 500px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 70px;
+}
+
+hr {
+    background-color: white;
+}
+
+.bob {
+    margin: auto;
+}
