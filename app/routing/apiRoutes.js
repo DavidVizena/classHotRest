@@ -21,7 +21,7 @@ module.exports = function (app) {
     })
 
     app.post('/table', function (req, res) {
-        res.send(table);
+        res.send("getting table data");
     })
 
     app.post('/reservation', function (req, res) {
