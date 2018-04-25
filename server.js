@@ -13,7 +13,7 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 require('./app/routing/apiRoutes.js')(app);
-require('./app/routing/htmlRoutes.js')(app);
+//require('./app/routing/htmlRoutes.js')(app);
 
 app.set('port', (process.env.PORT || 3000));
 
