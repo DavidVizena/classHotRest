@@ -1,0 +1,22 @@
+[
+    {
+        "table_number": 1,
+        "isReserved": true 
+    },
+    {
+        "table_number": 2,
+        "isReserved": true 
+    },
+    {
+        "table_number": 3,
+        "isReserved": false 
+    },
+    {
+        "table_number": 4,
+        "isReserved": false 
+    },
+    {
+        "table_number": 5,
+        "isReserved": false 
+    }
+]
