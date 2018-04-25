@@ -21,6 +21,10 @@ module.exports = function (app) {
     })
 
     app.post('/table', function (req, res) {
+        res.send(table);
+    })
+
+    app.post('/reservation', function (req, res) {
         res.send(reservation);
     })
 
