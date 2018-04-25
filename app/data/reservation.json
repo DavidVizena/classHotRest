@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "first last",
+        "id": 1234,
+        "email": "any@any.com",
+        "phone" : "000-000-0000"
+    },
+    {
+        "name" : "first last",
+        "id": 1233,
+        "email": "any@any.com",
+        "phone" : "000-000-0000"
+    }
+]

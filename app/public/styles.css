@@ -1,6 +1,14 @@
+/* CSS */
+
+* {
+    box-sizing: border-box;
+}
+
+/*  */
+
 .tom {
-    height: 500px;
-    background-image: url("beverages-brunch-cocktail-5317.jpg");
+    height: 400px;
+    background-image: url("./beverages-brunch-cocktail-5317.jpg");
     z-index: -9999;
     background-repeat: no-repeat;
     background-position: cover;
@@ -8,6 +16,11 @@
     color: aliceblue;
     text-align: center;
     font-size: 70px;
+    font-family: 'Pacifico', cursive;
+}
+
+.tom p {
+    font-size: .5em;
 }
 
 hr {
@@ -16,4 +29,6 @@ hr {
 
 .bob {
     margin: auto;
+    margin-bottom: 30px;
 }
+
