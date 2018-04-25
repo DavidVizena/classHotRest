@@ -2,7 +2,7 @@ let path = require("path")
 let fs = require("fs")
 module.exports = function (app) {
     let reservation;
-    fs.readFile(path.join(__dirname + '../data/reservation.json'), 'utf8', function (err, data) {
+    fs.readFile(path.join(__dirname , '../data/reservation.json'), 'utf8', function (err, data) {
         if (err) throw err;
         reservation = JSON.parse(data)
       });
