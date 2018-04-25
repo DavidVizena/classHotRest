@@ -30,16 +30,23 @@
     </div>
     </div>
     <div class="jumbotron bob col-lg-10">
-        <button type="button" class="btn btn-primary btn-lg btn-block">Book a reservation</button>
-        <button type="button" class="btn btn-primary btn-lg btn-block">View tables</button>
-        </p>
+        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="bookRes()">Book a reservation</button>
+        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="viewTables()">View tables</button>
     </div>
     <div class="jumbotron guy jumbotron-fluid">
         <div class="container">
             <p class="lead">This is the footer and the api buttons go here!</p>
-            
+
         </div>
     </div>
+    <script>
+        function bookRes() {
+            location.href = "/reservations.html";
+        } 
+        function viewTables() {
+            location.href = "/table.html";
+        }
+    </script>
 </body>
 
 </html>
