@@ -5,11 +5,11 @@ module.exports = function (app) {
     fs.readFile(path.join(__dirname + '../data/reservation.json'), 'utf8', function (err, data) {
         if (err) throw err;
         reservation = JSON.parse(data)
-      });
+    });
 
 
     app.get('/', function (req, res) {
-        res.sendFile(path.join(__dirname , '../public/home.html'));
+        res.sendFile(path.join(__dirname, '../public/home.html'));
     })
 
     app.get('/reservation', function (req, res) {
